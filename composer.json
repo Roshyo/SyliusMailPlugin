@@ -1,8 +1,8 @@
 {
-    "name": "sylius/plugin-skeleton",
+    "name": "roshyo/sylius-mail-plugin",
     "type": "sylius-plugin",
-    "keywords": ["sylius", "sylius-plugin"],
-    "description": "Acme example plugin for Sylius.",
+    "keywords": ["sylius", "sylius-plugin", "mail"],
+    "description": "A Sylius plugin to have better email management.",
     "license": "MIT",
     "require": {
         "php": "^7.2",
@@ -44,8 +44,8 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Acme\\SyliusExamplePlugin\\": "src/",
-            "Tests\\Acme\\SyliusExamplePlugin\\": "tests/"
+            "Roshyo\\SyliusMailPlugin\\": "src/",
+            "Tests\\Roshyo\\SyliusMailPlugin\\": "tests/"
         }
     },
     "autoload-dev": {

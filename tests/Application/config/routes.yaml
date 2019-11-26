@@ -1,9 +1,9 @@
-acme_sylius_example_shop:
-    resource: "@AcmeSyliusExamplePlugin/Resources/config/shop_routing.yml"
+roshyo_sylius_mail_shop:
+    resource: "@RoshyoSyliusMailPlugin/Resources/config/shop_routing.yml"
     prefix: /{_locale}
     requirements:
         _locale: ^[a-z]{2}(?:_[A-Z]{2})?$
 
-acme_sylius_example_admin:
-    resource: "@AcmeSyliusExamplePlugin/Resources/config/admin_routing.yml"
+roshyo_sylius_mail_admin:
+    resource: "@RoshyoSyliusMailPlugin/Resources/config/admin_routing.yml"
     prefix: /admin

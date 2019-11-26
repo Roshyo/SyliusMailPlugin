@@ -1,8 +1,8 @@
 <?php
 
-use Tests\Acme\SyliusExamplePlugin\Application\Kernel;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\HttpFoundation\Request;
+use Tests\Roshyo\SyliusMailPlugin\Application\Kernel;
 
 require dirname(__DIR__).'/config/bootstrap.php';
 
